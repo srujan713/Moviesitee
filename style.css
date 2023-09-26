@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2727;
+}
+
+h3{
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2a2727;
+  padding:10px;
+}
+
+.topnav a{
+  float:left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.topnav .search-container{
+  float: right;
+}
+
+form{
+  background-color:#35353b;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+
+input{
+  all: unset;
+  font: 15px system-ui;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+
+.thumbnail {
+  height: 350px;
+  width: 300px;
+  border-radius:19px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  height: 30%;
+  padding: 10px 10 px;
+}
+
+.card {
+  border-radius: 19px;
+  padding: 14px;
+  margin-bottom:7px;
+  margin-right: 4px;
+  text-align: center;
+  background-color: #050505;
+  align-items: space-around;
+  display: inline-flexbox;
+}
